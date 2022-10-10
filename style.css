@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;  
+    padding:0;
+    margin: 0;
+
+
+}
+
+
+html{
+    font-size: 10px;
+
+
+}
+
+
+body{
+    
+    background-color: #0093E9;
+    background-image: linear-gradient(120deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Poppins', sans-serif;
+    /* neccesary add the height for the gradient 
+       suggested height: 100vh; 
+    
+    */ 
+
+    height: 100vh;
+}
+
+.auth{
+    background-color: #fff;
+    display:inline-block;  
+    position:absolute;  
+    top:50%;  
+    right:50%; 
+    transform:translate(50%,-50%);
+
+}
